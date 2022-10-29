@@ -7,6 +7,8 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+/* header */
+
 header{
     width: 100%;
     height: 50px;
@@ -32,6 +34,32 @@ nav a {
     font-weight: 800;
     margin-right: 30px;
 }
+
 nav a:hover {
     color: aqua;
+}
+
+
+/* hero */
+
+#hero {
+    width: 100%;
+    display: flex;
+}
+
+#slogan-container {
+    background-color: #000;
+    width: 50%;
+    /* border: 3px solid white; */
+}
+
+#profile-container {
+    background-color: #000;
+    width: 50%;
+    /* border: 3px solid white; */
+}
+.info {
+    color: #fff;
+    padding: 10px 50px;
+    margin-left: 50px;
 }
