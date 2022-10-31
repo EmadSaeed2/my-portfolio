@@ -9,7 +9,6 @@ body {
 }
 
 /* header */
-
 header {
     width: 100%;
     height: 50px;
@@ -25,18 +24,18 @@ header {
     background-color: aqua;
 }
 
-nav {
+header nav {
     margin: 20px;
 }
 
-nav a {
+header nav a {
     color: #fff;
     text-decoration: none;
     font-weight: 800;
     margin-right: 30px;
 }
 
-nav a:hover {
+header nav a:hover {
     color: aqua;
 }
 
@@ -51,13 +50,11 @@ nav a:hover {
 #slogan-container {
     background-color: #000;
     width: 50%;
-    /* border: 3px solid white; */
 }
 
 #profile-container {
     background-color: #000;
     width: 50%;
-    /* border: 3px solid white; */
 }
 
 .info {
@@ -94,6 +91,7 @@ nav a:hover {
 
 .project p {
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .description-bg {
@@ -101,7 +99,7 @@ nav a:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 140px;
     padding: 20px;
 }
 
@@ -192,4 +190,46 @@ footer {
 
 footer p {
     color: #fff;
+}
+
+@media screen and (max-width: 820px) {
+    /* header */
+    header nav a {
+        font-size: 0.8em;
+    }
+
+    /* hero */
+    #hero {
+        flex-direction: column-reverse;
+    }
+
+    #slogan-container,
+    #slogan-container img {
+        width: 100%;
+    }
+
+    #profile-container {
+        width: 100%;
+        display: flex;
+    }
+
+    #profile-container img {
+        width: 70%;
+        margin: auto;
+    }
+
+    .info {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    /* portfolio */
+    #portfolio {
+        grid-template-columns: 1fr;
+    }
+    
+    /* contact */
+    #contact form {
+        width: 90%;
+    }
 }
