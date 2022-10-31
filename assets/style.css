@@ -111,9 +111,16 @@ nav a:hover {
     padding: 50px 30px;
 }
 
+.h1-bg {
+    width: 100%;
+    background: aqua;
+    text-align: center;
+    padding-top: 15px;
+}
+
 #about h1 {
     font-size: 3em;
-    color: #777;
+    color: #fff;
     margin-bottom: 10px;
 }
 
