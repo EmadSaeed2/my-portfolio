@@ -18,7 +18,7 @@
             <a href="#contact">CONTACT</a>
         </nav>
     </header>
-    
+
     <!-- hero -->
     <section id="hero">
         <div id="slogan-container">
@@ -114,10 +114,12 @@
             </a>
         </article>
     </section>
-    
+
     <!-- about -->
     <section id="about">
-        <div class="h1-bg"><h1>ABOUT ME</h1></div>
+        <div class="h1-bg">
+            <h1 class="section-title">ABOUT ME</h1>
+        </div>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quisquam consequatur consectetur sapiente
             aliquid libero, quidem itaque autem. Amet neque veniam ex sapiente incidunt dolores necessitatibus deserunt
             nostrum, tempora quidem!
@@ -151,7 +153,23 @@
     </section>
 
     <!-- contact -->
-    <section id="contact"></section>
+    <section id="contact">
+        <div class="h1-bg">
+            <h1 class="section-title">CONTACT ME</h1>
+        </div>
+        <form action="#">
+            <h1 class="form-title">Send me a message</h1>
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <label for="email">E-mail</label>
+            <input id="email" type="email">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text">
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 
 </html>
